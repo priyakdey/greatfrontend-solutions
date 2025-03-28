@@ -1,0 +1,37 @@
+.tweet-body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.handles {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.name {
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.metadata {
+  color: #71767B;
+  font-size: 15px;
+}
+
+.tweetMessage {
+  color: #0F1419;
+  font-size: 15px;
+}
+
+.action-row {
+  max-width: 425px;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

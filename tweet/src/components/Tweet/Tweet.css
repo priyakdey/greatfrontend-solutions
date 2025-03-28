@@ -1,0 +1,18 @@
+.tweet {
+  background-color: #FFFFFF;
+  border: 1px solid #CFD9DE;
+  border-radius: 16px;
+  padding: 12px;
+  width: 50%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  gap: 12px;
+}
+
+.thumbnail {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}

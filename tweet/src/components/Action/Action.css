@@ -1,0 +1,16 @@
+.action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.action-icon {
+  fill: #71767B;
+}
+
+.action-count {
+  color: #71767B;
+  font-size: 13px;
+}

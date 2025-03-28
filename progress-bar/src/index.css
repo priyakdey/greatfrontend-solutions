@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.progress-container {
+  background-color: rgb(233, 236, 239);
+  border-radius: 8px;
+  height: 20px;
+}
+
+.progress {
+  background-color: #0D6EFD;
+  border-radius: 8px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.progress-perc-text {
+  color: #FFFFFF;
+  font-size: 10px;
+}

@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.App-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.App-form-input {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.App-table {
+  margin-top: 2rem;
+}
+
+.App-table, .App-table-row, .App-table-col {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+.App-table-row, .App-table-col {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
